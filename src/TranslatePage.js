@@ -1,6 +1,6 @@
 // TranslatePage.js
 import React, { useState } from "react";
-import IndexPages, { fetcher } from "./IndexPages";
+import { fetcher } from "./IndexPages";
 
 import axios from "axios";
 import useSWR from "swr";
